@@ -1,0 +1,77 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  background: linear-gradient(135deg, #141e30, #4b267a);
+}
+
+.game {
+  width: min(90%, 420px);
+  padding: 30px;
+  text-align: center;
+  background: #211d3a;
+  border: 2px solid #8065ff;
+  border-radius: 24px;
+  box-shadow: 0 0 35px #8065ff55;
+}
+
+h1 {
+  margin-top: 0;
+  color: #c6b8ff;
+}
+
+.subtitle {
+  color: #c8c3dc;
+}
+
+.score {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  padding: 16px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s, filter 0.1s;
+}
+
+#clickButton {
+  padding: 28px 16px;
+  color: white;
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  font-size: 24px;
+}
+
+#upgradeButton {
+  color: white;
+  background: #41406c;
+}
+
+button:hover {
+  filter: brightness(1.15);
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+#message {
+  min-height: 24px;
+  color: #c6b8ff;
+}
+
